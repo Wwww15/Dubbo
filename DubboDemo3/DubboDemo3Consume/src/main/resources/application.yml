@@ -4,10 +4,9 @@ dubbo:
   application:
     name: consumer
   registry:
-    address: zookeeper://192.168.119.145
-    port: 2181
+    address: zookeeper://192.168.119.146:2182
     timeout: 100000
     parameters:
-      blockUntilConnectedWait: 50
+      blockUntilConnectedWait: 250
   protocol:
     name: dubbo
